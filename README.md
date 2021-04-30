@@ -1,0 +1,2 @@
+# nuxtpre
+nuxtの練習
