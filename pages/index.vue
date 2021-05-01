@@ -2,7 +2,7 @@
   <v-row justify="center" align="center">
     <v-col cols="12" sm="8" md="6">
       <div class="text-center">
-        <logo />
+        <Area />
         <vuetify-logo />
       </div>
       <v-card>
@@ -81,13 +81,11 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-import VuetifyLogo from '~/components/VuetifyLogo.vue'
+import Area from '@/components/atoms/Area.vue'
 
 export default {
   components: {
-    Logo,
-    VuetifyLogo,
+    Area,
   },
 }
 </script>
